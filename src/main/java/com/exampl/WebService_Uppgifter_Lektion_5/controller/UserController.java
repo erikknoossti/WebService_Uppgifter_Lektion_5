@@ -15,7 +15,7 @@ public class UserController {
 
     private final List<User> users = new ArrayList<>();
 
-    // (valfritt) Exempel: fyll på med någon user
+
     public UserController() {
         users.add(new User(1L, "alice", "secret", true));
         users.add(new User(2L, "bob", "1234", false));
